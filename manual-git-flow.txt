@@ -1,3 +1,5 @@
+===== CLONE from nothing
+
 230423.0954 greg@xcfit16 /Users/f16/16g101/manual ? ls -la
 total 0
 drwxr-xr-x  2 greg  admin  64 Apr 23 09:42 .
@@ -28,4 +30,56 @@ manual-git
 editing @ github
 editing @ github @ 20230422
 230423.0955 greg@xcfit16 /Users/f16/16g101/manual/manual-pracitce ?
+
+===== CREATE NEW FILE
+
+flow
+
+===== TRY PUSH
+
+230423.1023 greg@xcfit16 /Users/f16/16g101/manual/manual-pracitce ? git push origin  https://github.com/Focaccio/manual-pracitce.git
+fatal: invalid refspec 'https://github.com/Focaccio/manual-pracitce.git'
+230423.1024 greg@xcfit16 /Users/f16/16g101/manual/manual-pracitce ? git commit -m "new file"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   manual-git.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        manual-git-flow.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+230423.1027 greg@xcfit16 /Users/f16/16g101/manual/manual-pracitce ? git add manual-git-flow.txt 
+230423.1028 greg@xcfit16 /Users/f16/16g101/manual/manual-pracitce ? git commit -m "new file added then commit"
+[main 0d2d322] new file added then commit
+ 1 file changed, 31 insertions(+)
+ create mode 100644 manual-git-flow.txt
+230423.1028 greg@xcfit16 /Users/f16/16g101/manual/manual-pracitce ? 
+
+
+===== PUSH with PAT
+Personal Access Token
+
+230423.1047 greg@xcfit16 /Users/f16/16g101/manual/manual-pracitce ? git push
+Username for 'https://github.com': public.focaccio@gmail.com
+Password for 'https://public.focaccio@gmail.com@github.com': 
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 10 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 704 bytes | 704.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Focaccio/manual-pracitce.git
+   bcf633a..0d2d322  main -> main
+230423.1047 greg@xcfit16 /Users/f16/16g101/manual/manual-pracitce ? 
+
+
+
+
+
+
 

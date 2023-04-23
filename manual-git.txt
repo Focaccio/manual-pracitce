@@ -1,3 +1,6 @@
 manual-git
 editing @ github
 editing @ github @ 20230422
+VI CHANGES MANUAL 20230423
+...
+
