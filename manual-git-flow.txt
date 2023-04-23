@@ -1,0 +1,31 @@
+230423.0954 greg@xcfit16 /Users/f16/16g101/manual ? ls -la
+total 0
+drwxr-xr-x  2 greg  admin  64 Apr 23 09:42 .
+drwxrwxrwx  3 greg  admin  96 Apr 23 09:42 ..
+230423.0954 greg@xcfit16 /Users/f16/16g101/manual ? https://github.com/Focaccio/manual-pracitce.git
+zsh: no such file or directory: https://github.com/Focaccio/manual-pracitce.git
+230423.0954 greg@xcfit16 /Users/f16/16g101/manual ? git clone https://github.com/Focaccio/manual-pracitce.git       
+Cloning into 'manual-pracitce'...
+remote: Enumerating objects: 9, done.
+remote: Counting objects: 100% (9/9), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 9 (delta 0), reused 3 (delta 0), pack-reused 0
+Receiving objects: 100% (9/9), done.
+230423.0954 greg@xcfit16 /Users/f16/16g101/manual ? ls -la
+total 0
+drwxr-xr-x  3 greg  admin   96 Apr 23 09:54 .
+drwxrwxrwx  3 greg  admin   96 Apr 23 09:42 ..
+drwxr-xr-x  4 greg  admin  128 Apr 23 09:54 manual-pracitce
+230423.0955 greg@xcfit16 /Users/f16/16g101/manual ? cd manual-pracitce 
+230423.0955 greg@xcfit16 /Users/f16/16g101/manual/manual-pracitce ? ls -la
+total 8
+drwxr-xr-x   4 greg  admin  128 Apr 23 09:54 .
+drwxr-xr-x   3 greg  admin   96 Apr 23 09:54 ..
+drwxr-xr-x  12 greg  admin  384 Apr 23 09:54 .git
+-rw-r--r--   1 greg  admin   56 Apr 23 09:54 manual-git.txt
+230423.0955 greg@xcfit16 /Users/f16/16g101/manual/manual-pracitce ? more manual-git.txt 
+manual-git
+editing @ github
+editing @ github @ 20230422
+230423.0955 greg@xcfit16 /Users/f16/16g101/manual/manual-pracitce ?
+
