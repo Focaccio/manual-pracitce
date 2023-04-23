@@ -78,6 +78,58 @@ To https://github.com/Focaccio/manual-pracitce.git
 230423.1047 greg@xcfit16 /Users/f16/16g101/manual/manual-pracitce ? 
 
 
+===== BRANCH CREATE and PUSH =====
+
+230423.1257 greg@xcfit16 /Users/f16/16g101/manual/gitdiff-tests ? git branch 1.0.1_GREG
+230423.1259 greg@xcfit16 /Users/f16/16g101/manual/gitdiff-tests ? get checkout 1.0.1_GREG
+zsh: command not found: get
+230423.1301 greg@xcfit16 /Users/f16/16g101/manual/gitdiff-tests ? git checkout 1.0.1_GREG
+Switched to branch '1.0.1_GREG'
+230423.1301 greg@xcfit16 /Users/f16/16g101/manual/gitdiff-tests ? ls -la
+total 8
+drwxrwxrwx   4 greg  admin  128 Apr 23 12:25 .
+drwxr-xr-x   4 greg  admin  128 Apr 23 12:22 ..
+drwxr-xr-x  14 greg  admin  448 Apr 23 13:01 .git
+-rw-r--r--   1 greg  admin   81 Apr 23 12:24 template-1.0.0-main.txt
+230423.1301 greg@xcfit16 /Users/f16/16g101/manual/gitdiff-tests ? vi template-1.0.0-main.txt 
+230423.1302 greg@xcfit16 /Users/f16/16g101/manual/gitdiff-tests ? git commit -m "1.0.1_GREG changes"
+On branch 1.0.1_GREG
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   template-1.0.0-main.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+230423.1302 greg@xcfit16 /Users/f16/16g101/manual/gitdiff-tests ? git push
+fatal: The current branch 1.0.1_GREG has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin 1.0.1_GREG
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+230423.1302 greg@xcfit16 /Users/f16/16g101/manual/gitdiff-tests ? git push -u origin 1.0.1_GREG
+Username for 'https://github.com': fi^H^H^H^H^C
+230423.1307 greg@xcfit16 /Users/f16/16g101/manual/gitdiff-tests ? git push -u origin 1.0.1_GREG
+Username for 'https://github.com': focaccio
+Password for 'https://focaccio@github.com': 
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+remote: This repository moved. Please use the new location:
+remote:   https://github.com/Focaccio/gitdiff-tests.git
+remote: 
+remote: Create a pull request for '1.0.1_GREG' on GitHub by visiting:
+remote:      https://github.com/Focaccio/gitdiff-tests/pull/new/1.0.1_GREG
+remote: 
+To https://github.com/focaccio/gitdiff-tests.git
+ * [new branch]      1.0.1_GREG -> 1.0.1_GREG
+branch '1.0.1_GREG' set up to track 'origin/1.0.1_GREG'.
+230423.1307 greg@xcfit16 /Users/f16/16g101/manual/gitdiff-tests ? 
+
+
+
+
+
 
 
 
